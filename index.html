@@ -68,6 +68,24 @@
     <main>
       <h1 class="page-title">Feasibility Department Summary</h1>
 
+      <!-- Total Explored (Today) -->
+      <div class="kpi explored collapsed" data-bs-toggle="collapse" data-bs-target="#cExplored" aria-expanded="false">
+        <div class="label">Total Properties Explored</div>
+        <div id="kpiExplored" class="value">1507</div>
+        <span class="chev">▾</span>
+      </div>
+      <div id="cExplored" class="collapse">
+        <div class="breakdown">
+          <div class="row align-items-center py-1">
+            <div class="col bk-label">Tier-1 (T1) Properties Identified on Land.ID</div>
+            <div class="col-auto bk-value" id="expEWTOTM">1507</div>
+            <div class="row align-items-center py-1">
+            <a href="https://landhomestexas2025.sharepoint.com/:x:/s/LandHomesTexas/EavKTovFCuxJiuTcgGfs2fwBxc7hlNkBtMIGi4Nukux3QQ?e=z3ovqB">Click to view OTMs</a>
+          </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Ready for Calling -->
       <div class="kpi ready collapsed" data-bs-toggle="collapse" data-bs-target="#cReady" aria-expanded="false">
         <div class="label">Properties Ready for Calling</div>
@@ -103,26 +121,10 @@
             <div class="col bk-label">EWT from OTM</div>
             <div class="col-auto bk-value" id="skipEWTOTM">0</div>
           </div>
-          <div class="row align-items-center py-1">
-            <a href="https://landhomestexas2025.sharepoint.com/:x:/s/LandHomesTexas/EavKTovFCuxJiuTcgGfs2fwBxc7hlNkBtMIGi4Nukux3QQ?e=z3ovqB">Click to view OTMs</a>
-          </div>
         </div>
       </div>
 
-      <!-- Total Explored (Today) -->
-      <div class="kpi explored collapsed" data-bs-toggle="collapse" data-bs-target="#cExplored" aria-expanded="false">
-        <div class="label">Total Properties Explored</div>
-        <div id="kpiExplored" class="value">2407</div>
-        <span class="chev">▾</span>
-      </div>
-      <div id="cExplored" class="collapse">
-        <div class="breakdown">
-          <div class="row align-items-center py-1">
-            <div class="col bk-label">Tier-1 (T1) Properties Identified on Land.ID</div>
-            <div class="col-auto bk-value" id="expEWTOTM">1507</div>
-          </div>
-        </div>
-      </div>
+      
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -147,4 +149,3 @@
     </script>
   </body>
 </html>
-
